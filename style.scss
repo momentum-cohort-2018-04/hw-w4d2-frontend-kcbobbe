@@ -1,0 +1,41 @@
+html{
+  background-color:#333333;
+}
+
+body{
+  background-color:whitesmoke;
+  width:1000px;
+}
+.container {
+  display: inline-flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+}
+
+.bCard{
+  display:flex;
+}
+
+.myName{
+  margin-top:3rem;
+  color:whitesmoke;
+  background-color:darkblue;
+}
+.leftBox{
+  
+  margin:1rem;
+  background-color:lightcoral;
+  padding:1rem;
+  
+}
+
+.myPic{
+  margin:1rem;
+}
+.rightBox{
+  margin:1rem;
+  background-color:lightcoral;
+  padding:1rem;
+  
+}
+
