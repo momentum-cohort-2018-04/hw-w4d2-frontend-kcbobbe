@@ -21,7 +21,7 @@ function getData (username) {
       document.getElementById('links').innerHTML = 
       `<ul>
           <li><strong>Name</strong>: ${name}</li>
-          <li><strong>My LinkedIn profile: </strong>${website}</li>
+          <li><strong>Webpage: </strong>${website}</li>
           <li><strong>GitHub: </strong>${url}</li>
           <li><strong>Company: </strong>${company}</li>
       </ul>`
