@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +9,32 @@
   <link rel="stylesheet" href="style.scss">
   <title>Document</title>
 </head>
-<body>
-  
-  <h1 id = "myName" class="myName"></h1>
-  <div class = "bCard">
-  <div class= "leftBox">
-      <h2>THE BASICS</h2>
-      <div id = "links" class = "links"></div>
-    </div> 
-    <div id = "myPic" class = "myPic"></div>
 
-    <div class = "rightBox">
-      <h2>THE STORY</h2>
-      <div id = "bio" class = "bio"></div>
+<body>
+  <h1 id="myName" class="header"></h1>
+  <div class="bCard">
+    <div class="basics">
+      <h2>THE BASICS</h2>
+      <div id="links" class="basics__links"></div>
     </div>
+
+    <div class="story">
+      <h2>THE STORY</h2>
+      <div class="storyContent">
+        <div id="myPic" class="storyContent__img"></div>
+        <div id="bio" class="storyContent__bio"></div>
+      </div>
+    </div>
+
   </div>
+  <div class="search-suggest">Enter a GitHub username to create a profile!</div>
+  <form id="search-form">
+    <div class="input-group">
+      <input type="text" id="query" name="query">
+      <button type="submit" class="button">Submit</button>
+    </div>
+  </form>
   <script src="script.js"></script>
 </body>
+
 </html>
