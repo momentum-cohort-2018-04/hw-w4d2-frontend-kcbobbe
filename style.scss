@@ -1,0 +1,64 @@
+html {
+  background-color: #333333;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.bCard {
+  display: flex;
+}
+
+.header {
+  margin-top: 3rem;
+  padding: 1rem;
+  color: whitesmoke;
+  background-color: darkblue;
+}
+
+.basics {
+  width: 45%;
+  margin: 1rem;
+  background-color: lightcoral;
+  padding: 1rem;
+  border: 5px solid darkblue;
+  & ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  & li {
+    margin: .2rem;
+    padding-bottom: .2rem;
+  }
+}
+
+.story {
+  width: 50%;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: lightcoral;
+  border: 5px solid darkblue;
+}
+
+.storyContent {
+  display: flex;
+  &__bio {
+    margin: 0 .5rem 0 .5rem;
+    padding: 0 .5rem 0 .5rem;
+  }
+  &__img {
+    width: 30%;
+    margin: auto;
+  }
+}
+
+.search-suggest {
+  padding: 0 .5rem .5rem 1rem;
+}
